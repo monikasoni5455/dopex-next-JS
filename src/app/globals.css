@@ -19,8 +19,50 @@
   }
 }
 
+@font-face {
+  font-family: 'Collegium';
+  src: url('/fonts/Collegium-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+}
+
+.font-collegium {
+  font-family: 'Collegium', serif;
+}
+
+.font-roboto-mono {
+  font-family: 'Roboto Mono', monospace;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #212121;
+  color: #ffffff;
+}
+
+.problem-box {
+  position: relative;
+  background: #1a1a1a;
+  color: white;
+  padding: 2rem;
+  margin: 1rem;
+  max-width: 28rem;
+}
+
+.quote-top-arrow {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 80%);
+}
+
+.quote-down-arrow {
+  clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%);
 }
