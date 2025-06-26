@@ -66,3 +66,45 @@ body {
 .quote-down-arrow {
   clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%);
 }
+
+.custom-border {
+  border-top: 1px solid #bbfa00;
+  border-right: 1px solid #bbfa00;
+  border-left: 1px solid #bbfa00;
+}
+
+/* .left-v-shape {
+  transform-origin: 100% 100%;
+  transform: rotate(-15deg);
+  border-bottom: 1px solid rgb(187, 250, 0);
+} */
+
+.box {
+  position: relative;
+}
+
+/* First line (bottom-left to upward right at 45°) */
+.box::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 250px;
+  height: 1px;
+  background-color: #bbfa00;
+  transform: rotate(50deg);
+  transform-origin: left bottom;
+}
+
+/* Second line (bottom-right to same top point, making triangle angle) */
+.box::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 273px;
+  height: 1px;
+  background-color: #bbfa00;
+  transform: rotate(315deg);
+  transform-origin: right bottom;
+}
