@@ -4,12 +4,10 @@ import React, { useState } from "react";
 import Image from "next/image";
 
 const ShieldLogo = () => {
-  const [imgSrc, setImgSrc] = useState(
-    "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"
-  );
+  const [imgSrc, setImgSrc] = useState("/images/Dopex_Shield-circle.png");
 
   return (
-    <div>
+    <div className="flex justify-center items-center p-5">
       <Image
         src={imgSrc}
         alt="Shield Logo"
@@ -18,8 +16,8 @@ const ShieldLogo = () => {
             "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"
           )
         }
-        height={100}
-        width={100}
+        height={200}
+        width={200}
       />
     </div>
   );
