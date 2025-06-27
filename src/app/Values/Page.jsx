@@ -2,7 +2,7 @@ import React from "react";
 
 const Values = () => {
   return (
-    <div className="p-5">
+    <div className="">
       <span className="uppercase text-sm font-roboto-mono bg-[#bbfa00] text-black font-bold">
         THE VALUES OF DOPEX
       </span>
