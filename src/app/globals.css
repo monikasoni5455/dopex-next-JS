@@ -83,7 +83,7 @@ body {
   position: relative;
   width: 100%;
   max-width: 600px;
-  margin: 0 auto 100px auto;
+  margin: 0 auto 55px auto;
 }
 
 /* Responsive lines using percentages */
@@ -99,17 +99,17 @@ body {
 /* Left diagonal line */
 .box::before {
   transform-origin: 0 100%;
-  width: 58%;
+  width: 53.7%;
   left: 0;
-  transform: rotate(30deg);
+  transform: rotate(21deg);
 }
 
 /* Right diagonal line */
 .box::after {
   transform-origin: 100% 100%;
-  width: 58%;
+  width: 53.7%;
   right: 0;
-  transform: rotate(-30deg);
+  transform: rotate(-21deg);
 }
 
 @media (max-width: 767px) {

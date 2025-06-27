@@ -2,7 +2,7 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div className="p-5">
+    <div className="my-5 md:m-0">
       <span className="uppercase text-sm font-roboto-mono bg-[#bbfa00] text-black font-bold">
         LEVERAGE OUR EXPERIENCE
       </span>
