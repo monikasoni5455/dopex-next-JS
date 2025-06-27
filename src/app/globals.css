@@ -121,6 +121,15 @@ body {
   }
 }
 
+@media (min-width: 1200px) {
+  .box {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto clamp(50px, 27vw, 100px);
+  }
+}
+
 /* @media (max-width: 425px) {
   .box {
     position: relative;
