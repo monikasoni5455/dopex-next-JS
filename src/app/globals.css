@@ -81,30 +81,51 @@ body {
 
 .box {
   position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 100px auto;
 }
 
-/* First line (bottom-left to upward right at 45°) */
-.box::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 250px;
-  height: 1px;
-  background-color: #bbfa00;
-  transform: rotate(50deg);
-  transform-origin: left bottom;
-}
-
-/* Second line (bottom-right to same top point, making triangle angle) */
+/* Responsive lines using percentages */
+.box::before,
 .box::after {
   content: "";
   position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 273px;
   height: 1px;
   background-color: #bbfa00;
-  transform: rotate(315deg);
-  transform-origin: right bottom;
+  bottom: 0;
 }
+
+/* Left diagonal line */
+.box::before {
+  transform-origin: 0 100%;
+  width: 58%;
+  left: 0;
+  transform: rotate(30deg);
+}
+
+/* Right diagonal line */
+.box::after {
+  transform-origin: 100% 100%;
+  width: 58%;
+  right: 0;
+  transform: rotate(-30deg);
+}
+
+@media (max-width: 767px) {
+  .box {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto clamp(50px, 27vw, 200px);
+  }
+}
+
+/* @media (max-width: 425px) {
+  .box {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto 150px auto;
+  }
+} */

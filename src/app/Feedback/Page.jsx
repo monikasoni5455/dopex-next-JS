@@ -2,7 +2,7 @@ import React from "react";
 
 const Feedback = () => {
   return (
-    <div className="relative text-center md:p-16 px-20 max-w-xl mx-auto text-white">
+    <div className="relative text-center md:pt-10 md:pb-3 px-20 max-w-xl mx-auto text-white">
       <div className="absolute top-20 left-2 flex justify-start gap-2 mb-4">
         <div className="quote-top-arrow bg-[#bbfa00] w-4 h-10"></div>
         <div className="quote-top-arrow bg-[#bbfa00] w-4 h-10"></div>
