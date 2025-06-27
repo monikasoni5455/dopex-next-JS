@@ -13,9 +13,9 @@ import Service from "./Service/Page";
 
 export default function Home() {
   return (
-    <div className="text-justify mb-10">
+    <div className="text-justify mb-10 m-14">
       <Head />
-      <div className="flex my-10 mr-10">
+      <div className="flex my-10 md:mr-10">
         <div className="md:w-[70%] mx-10">
           <div className="w-full flex flex-col md:flex-row">
             <div className="md:w-[55%] md:mr-6"><HomeHeading /></div>
