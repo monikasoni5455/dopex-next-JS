@@ -50,6 +50,8 @@ body {
   color: #ffffff;
 }
 
+
+
 .problem-box {
   position: relative;
   background: #1a1a1a;
@@ -73,20 +75,12 @@ body {
   border-left: 1px solid #bbfa00;
 }
 
-/* .left-v-shape {
-  transform-origin: 100% 100%;
-  transform: rotate(-15deg);
-  border-bottom: 1px solid rgb(187, 250, 0);
-} */
-
 .box {
   position: relative;
   width: 100%;
-  max-width: 600px;
   margin: 0 auto 55px auto;
 }
 
-/* Responsive lines using percentages */
 .box::before,
 .box::after {
   content: "";
@@ -96,7 +90,6 @@ body {
   bottom: 0;
 }
 
-/* Left diagonal line */
 .box::before {
   transform-origin: 0 100%;
   width: 53.7%;
@@ -104,7 +97,6 @@ body {
   transform: rotate(21deg);
 }
 
-/* Right diagonal line */
 .box::after {
   transform-origin: 100% 100%;
   width: 53.7%;
@@ -112,29 +104,17 @@ body {
   transform: rotate(-21deg);
 }
 
-@media (max-width: 767px) {
+/* For screens up to 545px */
+@media (max-width: 545px) {
   .box {
-    position: relative;
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto clamp(50px, 27vw, 200px);
+    margin: 0 auto 120px;
+    /* example value — adjust as needed */
   }
 }
 
-@media (min-width: 1200px) {
+/* For screens between 546px and 767px */
+@media (min-width: 546px) and (max-width: 767px) {
   .box {
-    position: relative;
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto clamp(50px, 27vw, 100px);
+    margin: 0 auto 170px;
   }
 }
-
-/* @media (max-width: 425px) {
-  .box {
-    position: relative;
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto 150px auto;
-  }
-} */

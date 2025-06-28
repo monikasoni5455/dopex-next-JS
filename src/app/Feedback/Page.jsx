@@ -8,7 +8,7 @@ const Feedback = () => {
           <div className="quote-top-arrow bg-[#bbfa00] w-4 h-10"></div>
           <div className="quote-top-arrow bg-[#bbfa00] w-4 h-10"></div>
         </div>
-        <div className="my-5 px-20">
+        <div className="my-5 md:px-20">
           <h3 className="font-collegium text-2xl mb-2">
             Real Feedback based on Real Results.
           </h3>
