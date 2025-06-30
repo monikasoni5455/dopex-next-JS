@@ -63,7 +63,10 @@ const Service = () => {
           { src: "/images/buildops.png", alt: "BuildOps logo" },
           { src: "/images/microsoft.png", alt: "Microsoft logo" },
         ].map((image, index) => (
-          <div key={index} className="w-1/2 p-4 flex justify-center">
+          <div
+            key={index}
+            className="w-1/2 p-4 flex justify-center items-center"
+          >
             <Image
               src={image.src}
               alt={image.alt}
