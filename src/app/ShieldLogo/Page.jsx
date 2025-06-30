@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 
 const ShieldLogo = () => {
-  const [imgSrc, setImgSrc] = useState("/images/Dopex_Shield-circle.png");
+  const [imgSrc, setImgSrc] = useState("/logos/Dopex_Shield-circle.png");
 
   return (
     <div className="flex justify-center items-center my-10 mx-5 md:m-0">
