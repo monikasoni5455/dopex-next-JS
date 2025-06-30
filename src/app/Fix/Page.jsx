@@ -2,7 +2,7 @@ import React from "react";
 
 const Fix = () => {
   return (
-    <div className="w-full md:px-5 md:py-4 text-center md:text-justify border-y py-10 md:border-0">
+    <div className="w-full md:px-5 md:py-4 text-justify border-y py-10 md:border-0">
       <span className="uppercase text-sm font-roboto-mono bg-[#bbfa00] text-black font-bold p-[2px]">
         SO WHAT’S THE FIX?
       </span>

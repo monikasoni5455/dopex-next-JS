@@ -13,7 +13,7 @@ import Service from "./Service/Page";
 
 export default function Home() {
   return (
-    <div className="max-w-[1200px] mx-8">
+    <div className="max-w-[1200px] flex justify-center items-center mx-8">
       <div>
         <Head />
         <div className="md:flex">
@@ -21,7 +21,7 @@ export default function Home() {
           <div className="flex-[7] my-5 md:ml-10">
             <div className="md:w-full flex flex-col-reverse md:flex-row justify-center items-center">
               <div className="flex-1 md:mr-5 mb-10 md:m-7"><HomeHeading /></div>
-              <div className="flex-1 md:ml-5"><ShieldLogo /></div>
+              <div className="flex-1 lg:ml-5"><ShieldLogo /></div>
             </div>
 
             <div className="w-full flex flex-col justify-center md:flex-row md:my-8">
@@ -33,7 +33,7 @@ export default function Home() {
               <Service />
             </div>
 
-            <div className="flex flex-col md:flex-row md:border-y md:py-5 mr-5">
+            <div className="flex flex-col md:flex-row md:border-y md:py-5 md:mx-5">
               <div className="flex-1"><Experience /></div>
               <div className="hidden md:block border-r mx-5"></div>
               <div className="flex-1 my-5"><Values /></div>
