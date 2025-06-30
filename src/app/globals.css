@@ -48,6 +48,9 @@ body {
   box-sizing: border-box;
   background-color: #212121;
   color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -102,6 +105,17 @@ body {
   width: 53.7%;
   right: 0;
   transform: rotate(-21deg);
+}
+
+.openQuote {
+  position: absolute;
+  top: 10;
+  left: 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  transform: scaleX(-1);
 }
 
 /* For screens up to 545px */

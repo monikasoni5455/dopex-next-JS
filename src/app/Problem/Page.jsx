@@ -2,7 +2,7 @@ import React from "react";
 
 const Problem = () => {
   return (
-    <div className="box md:text-justify px-7 py-4 custom-border mb-50 text-center">
+    <div className="box md:text-justify px-7 py-4 custom-border mb-50 text-justify">
       <span className="text-sm font-roboto-mono bg-[#bbfa00] text-black font-bold p-1">
         We understand your problem
       </span>
