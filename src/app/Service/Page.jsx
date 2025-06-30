@@ -48,20 +48,20 @@ const Service = () => {
       </div>
       <div className="flex flex-wrap">
         {[
-          { src: "/images/procore-logo.png", alt: "Procore logo" },
-          { src: "/images/acumatica-logo.png", alt: "Acumatica logo" },
-          { src: "/images/power-BI.png", alt: "Power BI logo" },
-          { src: "/images/goformz.png", alt: "GoFormz logo" },
-          { src: "/images/agave-logo.png", alt: "Agave logo" },
-          { src: "/images/koncurent-logo.png", alt: "Koncurent logo" },
-          { src: "/images/mobi-clocks.png", alt: "Mobi Clocks logo" },
-          { src: "/images/microsoft-azure.png", alt: "Microsoft Azure logo" },
-          { src: "/images/snowflake.png", alt: "Snowflake logo" },
-          { src: "/images/extractspro.png", alt: "ExtractsPro logo" },
-          { src: "/images/northspyre.png", alt: "Northspyre logo" },
-          { src: "/images/quotetome.png", alt: "QuoteToMe logo" },
-          { src: "/images/buildops.png", alt: "BuildOps logo" },
-          { src: "/images/microsoft.png", alt: "Microsoft logo" },
+          { src: "/logos/procore.png", alt: "Procore logo" },
+          { src: "/logos/acumatica.png", alt: "Acumatica logo" },
+          { src: "/logos/power-BI.png", alt: "Power BI logo" },
+          { src: "/logos/goformz.png", alt: "GoFormz logo" },
+          { src: "/logos/agave.png", alt: "Agave logo" },
+          { src: "/logos/koncurent.png", alt: "Koncurent logo" },
+          { src: "/logos/mobi-clocks.png", alt: "Mobi Clocks logo" },
+          { src: "/logos/microsoft-azure.png", alt: "Microsoft Azure logo" },
+          { src: "/logos/snowflake.png", alt: "Snowflake logo" },
+          { src: "/logos/extractspro.png", alt: "ExtractsPro logo" },
+          { src: "/logos/northspyre.png", alt: "Northspyre logo" },
+          { src: "/logos/quotetome.png", alt: "QuoteToMe logo" },
+          { src: "/logos/buildops.png", alt: "BuildOps logo" },
+          { src: "/logos/microsoft.png", alt: "Microsoft logo" },
         ].map((image, index) => (
           <div
             key={index}
