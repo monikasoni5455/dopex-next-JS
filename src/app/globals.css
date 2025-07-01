@@ -65,7 +65,8 @@ body {
 }
 
 .quote-top-arrow {
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 80%);
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 80%); */
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
 }
 
 .quote-down-arrow {
@@ -116,6 +117,52 @@ body {
   gap: 0.5rem;
   margin-bottom: 1rem;
   transform: scaleX(-1);
+}
+
+.closeQuote {
+  transform: scaleX(-1);
+}
+
+.line-spacing-1 {
+  line-height: 1;
+}
+
+.line-spacing-1_4 {
+  line-height: 1;
+}
+
+@media (min-width: 767px) and (max-width: 849px) {
+  .fixed-width {
+    width: 180px;
+  }
+}
+
+/* 850px to 991px */
+@media (min-width: 850px) and (max-width: 991px) {
+  .fixed-width {
+    width: 200px;
+  }
+}
+
+/* 992px to 1099px */
+@media (min-width: 992px) and (max-width: 1099px) {
+  .fixed-width {
+    width: 220px;
+  }
+}
+
+/* 1100px to 1199px */
+@media (min-width: 1100px) and (max-width: 1199px) {
+  .fixed-width {
+    width: 260px;
+  }
+}
+
+/* 1200px and up */
+@media (min-width: 1200px) {
+  .fixed-width {
+    width: 300px;
+  }
 }
 
 /* For screens up to 545px */

@@ -7,7 +7,7 @@ const ShieldLogo = () => {
   const [imgSrc, setImgSrc] = useState("/logos/Dopex_Shield-circle.png");
 
   return (
-    <div className="flex justify-center items-center my-10 mx-5 md:m-0">
+    <div className="flex justify-center items-center my-10 md:m-0">
       <Image
         src={imgSrc}
         alt="Shield Logo"
