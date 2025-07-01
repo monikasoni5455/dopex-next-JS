@@ -3,7 +3,7 @@ import React from "react";
 
 const Head = () => {
   return (
-    <div className="m-2">
+    <div className="m-2 line-spacing-1_4">
       <hr className="my-6" />
       <h1 className="font-collegium text-4xl m-1 text-center">
         DEPARTMENT OF OPERATIONAL EXCELLENCE

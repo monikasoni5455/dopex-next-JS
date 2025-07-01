@@ -2,11 +2,11 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div className="my-5 md:m-5 text-justify">
+    <div className="text-justify">
       <span className="text-sm font-roboto-mono bg-[#bbfa00] text-black font-bold p-1">
         LEVERAGE OUR EXPERIENCE
       </span>
-      <h3 className="font-collegium text-2xl my-3">
+      <h3 className="font-collegium text-2xl my-3 line-spacing-1">
         You don’t know what you don’t know.
       </h3>
       <p className="text-sm font-roboto-mono mb-3">
