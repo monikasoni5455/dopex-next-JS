@@ -55,7 +55,7 @@ export default function Home() {
     // </div >
 
 
-    <div className="max-w-[1200px] mx-8">
+    <div className="max-w-[1200px] mx-8 mt-5">
       <Head />
       <div className="md:flex justify-center">
         <div className="my-5 md:ml-5 md:pr-6 flex flex-col justify-between">
