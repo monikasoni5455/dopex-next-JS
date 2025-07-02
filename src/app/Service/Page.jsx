@@ -4,7 +4,7 @@ import Image from "next/image";
 const Service = () => {
   return (
     <div className="h-full text-justify flex flex-col border-b mb-5 md:mb-0 md:border-0 fixed-width md:mx-10">
-      <div className="mt-10">
+      <div className="mt-4">
         <span className="text-sm font-roboto-mono bg-[#bbfa00] text-black font-bold p-1">
           SERVICES
         </span>
@@ -40,7 +40,7 @@ const Service = () => {
           the way you want it to. Then we’ll help build custom visualizations to
           better monitor your success.
         </p>
-        <p className="text-sm font-roboto-mono my-6 ">
+        <p className="text-sm font-roboto-mono my-6 mb-0">
           <span className="font-bold">BESPOKE SMART FORMS (GoFormz).</span>
           Near fool-proof digital smart forms anyone can use. Pre-populate from
           databases and/or integrate with Procore, PowerBI, or other ERPs.
@@ -65,7 +65,7 @@ const Service = () => {
         ].map((image, index) => (
           <div
             key={index}
-            className="w-1/2 p-4 flex justify-center items-center"
+            className="w-1/2 px-3 py-2 flex justify-center items-center"
           >
             <Image
               src={image.src}

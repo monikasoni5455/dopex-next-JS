@@ -57,8 +57,8 @@ export default function Home() {
 
     <div className="max-w-[1200px] mx-8">
       <Head />
-      <div className="md:flex justify-center items-start">
-        <div className="my-5 md:ml-10 md:pr-6 h-full">
+      <div className="md:flex justify-center">
+        <div className="my-5 md:ml-10 md:pr-6 flex flex-col justify-between">
           <div className="md:w-full flex flex-col-reverse md:flex-row justify-around items-center">
             <div className="mb-10 md:my-7 fixed-width"><HomeHeading /></div>
             <div className="fixed-width"><ShieldLogo /></div>
