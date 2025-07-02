@@ -73,7 +73,7 @@ export default function Home() {
             <Service />
           </div>
 
-          <div className="w-full flex flex-col items-center md:flex-row md:justify-center md:items-stretch md:border-y mt-6 md:mt-0 md:py-7">
+          <div className="w-full flex flex-col items-center md:flex-row md:justify-center md:items-stretch md:border-y md:py-7">
             <div className="fixed-width my-5 md:my-0 w-1\2"><Experience /></div>
 
             {/* Vertical Divider */}
@@ -81,7 +81,7 @@ export default function Home() {
 
             <div className="fixed-width my-5 md:my-0 w-1\2"><Values /></div>
           </div>
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center py-4 md:py-0">
             <Feedback />
           </div>
         </div>
