@@ -10,7 +10,7 @@ const CallToAction = () => {
         Don’t waste more time. Shoot us an email and share how you think we can
         help. We’ll respond quickly, and we won’t waste yours.
       </p>
-      <button className="font-collegium px-16 py-2 text-black bg-[#bbfa00] rounded-4xl mt-3">
+      <button className="font-collegium px-16 py-2 text-black bg-[#bbfa00] rounded-4xl mt-3 mb-2">
         Email us
       </button>
     </div>
