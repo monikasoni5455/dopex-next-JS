@@ -10,7 +10,7 @@ const Values = () => {
         We take our values seriously.
       </h3>
       <p className="text-sm font-roboto-mono mb-5">
-        They define how we GSD, how we hire, fire, and award.
+        They define how we GSD, how we hire, fire, and reward.
       </p>
       <ul className="list-disc pl-6 text-sm font-roboto-mono mb-5">
         <li>Authentic Connections</li>
