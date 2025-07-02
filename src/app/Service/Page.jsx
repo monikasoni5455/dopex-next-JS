@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Service = () => {
   return (
-    <div className="h-full text-justify flex flex-col border-b mb-5 md:mb-0 md:border-0 fixed-width md:mx-10">
+    <div className="h-full text-justify flex flex-col justify-between items-center border-b mb-5 md:mb-0 md:border-0 fixed-width md:mx-10">
       <div className="mt-4">
         <span className="text-sm font-roboto-mono bg-[#bbfa00] text-black font-bold p-1">
           SERVICES
@@ -34,19 +34,19 @@ const Service = () => {
         </p>
         <p className="text-sm font-roboto-mono my-6 ">
           <span className="font-bold">
-            CUSTOM DEVELOPMENT,INTEGRATIONS, DASHBOARDS & REPORTING.{" "}
+            CUSTOM DEVELOPMENT, INTEGRATIONS, DASHBOARDS & REPORTING.{" "}
           </span>{" "}
           Elevate your insights by connecting your systems and having it flow
           the way you want it to. Then we’ll help build custom visualizations to
           better monitor your success.
         </p>
         <p className="text-sm font-roboto-mono my-6 mb-0">
-          <span className="font-bold">BESPOKE SMART FORMS (GoFormz).</span>
-          Near fool-proof digital smart forms anyone can use. Pre-populate from
+          <span className="font-bold">BESPOKE SMART FORMS (GoFormz).</span> Near
+          fool-proof digital smart forms anyone can use. Pre-populate from
           databases and/or integrate with Procore, PowerBI, or other ERPs.
         </p>
       </div>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap md:h-full mb-6 mb:mb-0">
         {[
           { src: "/logos/procore.png", alt: "Procore logo" },
           { src: "/logos/acumatica.png", alt: "Acumatica logo" },

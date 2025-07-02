@@ -58,9 +58,9 @@ export default function Home() {
     <div className="max-w-[1200px] mx-8">
       <Head />
       <div className="md:flex justify-center">
-        <div className="my-5 md:ml-10 md:pr-6 flex flex-col justify-between">
+        <div className="my-5 md:ml-5 md:pr-6 flex flex-col justify-between">
           <div className="md:w-full flex flex-col-reverse md:flex-row justify-around items-center">
-            <div className="mb-10 md:my-7 fixed-width"><HomeHeading /></div>
+            <div className="mb-10 fixed-width"><HomeHeading /></div>
             <div className="fixed-width"><ShieldLogo /></div>
           </div>
 
@@ -69,17 +69,17 @@ export default function Home() {
             <div className="fixed-width"><Fix /></div>
           </div>
 
-          <div className="w-full md:hidden block">
+          <div className="w-full md:hidden block pt-6 md:py-0">
             <Service />
           </div>
 
-          <div className="flex flex-col items-center md:flex-row md:justify-center md:items-stretch md:border-y md:py-5">
-            <div className="fixed-width my-5 md:my-0"><Experience /></div>
+          <div className="w-full flex flex-col items-center md:flex-row md:justify-center md:items-stretch md:border-y mt-6 md:mt-0 md:py-7">
+            <div className="fixed-width my-5 md:my-0 w-1\2"><Experience /></div>
 
             {/* Vertical Divider */}
             <div className="hidden md:block w-px bg-gray-300 mx-8"></div>
 
-            <div className="fixed-width my-5 md:my-0"><Values /></div>
+            <div className="fixed-width my-5 md:my-0 w-1\2"><Values /></div>
           </div>
           <div className="flex justify-center items-center">
             <Feedback />
