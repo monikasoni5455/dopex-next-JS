@@ -2,7 +2,7 @@ import React from "react";
 
 const CallToAction = () => {
   return (
-    <div className="md:text-center border-y py-8 md:mx-5 mb-10 md:flex flex-col justify-center items-center">
+    <div className="text-center border-y py-8 md:mx-5 mb-10 md:flex flex-col justify-center items-center">
       <h3 className="font-collegium text-2xl py-2 md:p-2 line-spacing-1">
         Take OWNERSHIP of your Operations
       </h3>
