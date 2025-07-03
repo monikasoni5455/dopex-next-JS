@@ -3,7 +3,7 @@ import React from "react";
 const Feedback = () => {
   return (
     <div className="text-center text-white md:m-10">
-      <h3 className="text-left md:text-center font-collegium text-2xl px-18 line-spacing-1">
+      <h3 className="md:text-center font-collegium text-2xl px-18 line-spacing-1">
         Real Feedback based on Real Results.
       </h3>
       <div className="flex flex-col justify-center items-center mt-5">
@@ -13,7 +13,7 @@ const Feedback = () => {
             We’re light years ahead of where we’d be had we done this by
             ourselves.
           </p>
-          <p className="mt-5 text-left md:text-center font-roboto-mono font-bold text-[15px]">
+          <p className="mt-5 md:text-center font-roboto-mono font-bold text-[15px]">
             Project Exec @ 300M GC
           </p>
           <div className="openQuote absolute top-0 left-0 flex justify-start gap-2 mb-4">
