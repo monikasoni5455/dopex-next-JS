@@ -139,12 +139,20 @@ body {
   .fixed-width {
     width: 180px;
   }
+
+  .carousel-root {
+    width: 350px;
+  }
 }
 
 /* 850px to 991px */
 @media (min-width: 850px) and (max-width: 991px) {
   .fixed-width {
     width: 200px;
+  }
+
+  .carousel-root {
+    width: 450px;
   }
 }
 
@@ -153,6 +161,10 @@ body {
   .fixed-width {
     width: 220px;
   }
+
+  .carousel-root {
+    width: 500px;
+  }
 }
 
 /* 1100px to 1199px */
@@ -160,6 +172,11 @@ body {
   .fixed-width {
     width: 260px;
   }
+
+  .carousel-root {
+    width: 550px;
+  }
+
 }
 
 /* 1200px and up */
@@ -167,19 +184,86 @@ body {
   .fixed-width {
     width: 300px;
   }
-}
 
-/* For screens up to 545px */
-@media (max-width: 545px) {
-  .box {
-    margin: 0 auto 120px;
-    /* example value — adjust as needed */
+  .carousel-root {
+    width: 100%;
   }
 }
 
-/* For screens between 546px and 767px */
-@media (min-width: 546px) and (max-width: 767px) {
+/* For screens up to 545px */
+/* @media (max-width: 545px) {
+  .box {
+    margin: 0 auto 120px;
+  }
+
+  .carousel-root {
+    width: 300px;
+  }
+} */
+
+/* 0px to 375px (Small phones) */
+@media (max-width: 375px) {
+  .box {
+    margin: 0 auto 120px;
+  }
+
+  .carousel-root {
+    width: 260px;
+  }
+}
+
+/* 376px to 425px (Medium phones) */
+@media (min-width: 376px) and (max-width: 425px) {
+  .box {
+    margin: 0 auto 120px;
+  }
+
+  .carousel-root {
+    width: 300px;
+  }
+}
+
+/* 426px to 480px (Large phones) */
+@media (min-width: 426px) and (max-width: 480px) {
+  .box {
+    margin: 0 auto 120px;
+  }
+
+  .carousel-root {
+    width: 350px;
+  }
+}
+
+/* 481px to 545px (Very small tablets or big phones) */
+@media (min-width: 481px) and (max-width: 545px) {
+  .box {
+    margin: 0 auto 120px;
+  }
+
+  .carousel-root {
+    width: 400px;
+  }
+}
+
+
+/* 546px to 667px */
+@media (min-width: 546px) and (max-width: 667px) {
   .box {
     margin: 0 auto 170px;
+  }
+
+  .carousel-root {
+    width: 530px;
+  }
+}
+
+/* 668px to 767px */
+@media (min-width: 668px) and (max-width: 767px) {
+  .box {
+    margin: 0 auto 170px;
+  }
+
+  .carousel-root {
+    width: 630px;
   }
 }
