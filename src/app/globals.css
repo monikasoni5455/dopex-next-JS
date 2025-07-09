@@ -135,72 +135,6 @@ body {
   width: 100%;
 }
 
-@media (min-width: 767px) and (max-width: 849px) {
-  .fixed-width {
-    width: 180px;
-  }
-
-  .carousel-root {
-    width: 350px;
-  }
-}
-
-/* 850px to 991px */
-@media (min-width: 850px) and (max-width: 991px) {
-  .fixed-width {
-    width: 200px;
-  }
-
-  .carousel-root {
-    width: 450px;
-  }
-}
-
-/* 992px to 1099px */
-@media (min-width: 992px) and (max-width: 1099px) {
-  .fixed-width {
-    width: 220px;
-  }
-
-  .carousel-root {
-    width: 500px;
-  }
-}
-
-/* 1100px to 1199px */
-@media (min-width: 1100px) and (max-width: 1199px) {
-  .fixed-width {
-    width: 260px;
-  }
-
-  .carousel-root {
-    width: 550px;
-  }
-
-}
-
-/* 1200px and up */
-@media (min-width: 1200px) {
-  .fixed-width {
-    width: 300px;
-  }
-
-  .carousel-root {
-    width: 100%;
-  }
-}
-
-/* For screens up to 545px */
-/* @media (max-width: 545px) {
-  .box {
-    margin: 0 auto 120px;
-  }
-
-  .carousel-root {
-    width: 300px;
-  }
-} */
-
 /* 0px to 375px (Small phones) */
 @media (max-width: 375px) {
   .box {
@@ -245,7 +179,6 @@ body {
   }
 }
 
-
 /* 546px to 667px */
 @media (min-width: 546px) and (max-width: 667px) {
   .box {
@@ -265,5 +198,59 @@ body {
 
   .carousel-root {
     width: 630px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 849px) {
+  .fixed-width {
+    width: 180px;
+  }
+
+  .carousel-root {
+    width: 350px;
+  }
+}
+
+/* 850px to 991px */
+@media (min-width: 850px) and (max-width: 991px) {
+  .fixed-width {
+    width: 200px;
+  }
+
+  .carousel-root {
+    width: 450px;
+  }
+}
+
+/* 992px to 1099px */
+@media (min-width: 992px) and (max-width: 1099px) {
+  .fixed-width {
+    width: 220px;
+  }
+
+  .carousel-root {
+    width: 500px;
+  }
+}
+
+/* 1100px to 1199px */
+@media (min-width: 1100px) and (max-width: 1199px) {
+  .fixed-width {
+    width: 260px;
+  }
+
+  .carousel-root {
+    width: 550px;
+  }
+}
+
+/* 1200px and up */
+@media (min-width: 1200px) {
+  .fixed-width {
+    width: 300px;
+  }
+
+  .carousel-root {
+    width: 100%;
   }
 }

@@ -58,7 +58,7 @@ const testimonials = [
 
 const Feedback = () => {
   return (
-    <div className="text-center text-white md:m-10">
+    <div className="text-center text-white md:my-10">
       <h3 className="md:text-center font-collegium text-2xl px-18 line-spacing-1">
         Real Feedback based on Real Results.
       </h3>
