@@ -84,7 +84,7 @@ const EmailModal = ({ isOpen, onClose }) => {
                         type="email"
                         value="info@dopex.co"
                         disabled
-                        className="w-full border border-gray-300 rounded-md px-3 py-2 mb-4 bg-gray-100 text-black cursor-not-allowed"
+                        className="w-full border border-gray-300 px-3 py-2 mb-4 bg-gray-100 text-black cursor-not-allowed"
                     />
 
                     <label htmlFor="name" className="font-semibold">Name:</label>
@@ -95,7 +95,7 @@ const EmailModal = ({ isOpen, onClose }) => {
                         placeholder="Please enter your name"
                         value={emailDetails.name}
                         onChange={handleChange}
-                        className="w-full border border-gray-300 rounded-md px-3 py-2 mb-3 text-black"
+                        className="w-full border border-gray-300 px-3 py-2 mb-3 text-black font-normal"
                         required
                     />
 
@@ -106,7 +106,7 @@ const EmailModal = ({ isOpen, onClose }) => {
                         placeholder="Please enter the subject"
                         value={emailDetails.subject}
                         onChange={handleChange}
-                        className="w-full border border-gray-300 rounded-md px-3 py-2 mb-4 text-black"
+                        className="w-full border border-gray-300 px-3 py-2 mb-4 text-black font-normal"
                         required
                     />
 
@@ -117,7 +117,7 @@ const EmailModal = ({ isOpen, onClose }) => {
                         placeholder="Please enter your email"
                         value={emailDetails.email}
                         onChange={handleChange}
-                        className="w-full border border-gray-300 rounded-md px-3 py-2 mb-4 text-black"
+                        className="w-full border border-gray-300 px-3 py-2 mb-4 text-black font-normal"
                         required
                     />
 
@@ -128,21 +128,21 @@ const EmailModal = ({ isOpen, onClose }) => {
                         value={emailDetails.message}
                         onChange={handleChange}
                         rows={4}
-                        className="w-full border border-gray-300 rounded-md px-3 py-2 mb-4 text-black"
+                        className="w-full border border-gray-300 px-3 py-2 mb-4 text-black font-normal"
                         required
                     />
 
                     <div className="flex justify-end gap-2">
                         <button
                             onClick={onClose}
-                            className="px-4 py-2 bg-gray-300 text-black rounded-md hover:bg-gray-400 hover:cursor-pointer"
+                            className="px-4 py-2 bg-gray-300 text-black rounded-full hover:bg-gray-400 hover:cursor-pointer"
                         >
                             Cancel
                         </button>
                         <button
                             onClick={handleSend}
                             disabled={sending}
-                            className="px-4 py-2 bg-[#bbfa00] text-black rounded-md font-semibold hover:cursor-pointer"
+                            className="px-4 py-2 bg-[#bbfa00] text-black rounded-full font-semibold hover:cursor-pointer"
                         >
                             {sending ? "Sending..." : "Send"}
                         </button>
