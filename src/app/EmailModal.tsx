@@ -1,3 +1,6 @@
+"use client"
+
+
 import React, { useState } from "react";
 import { Dialog, DialogPanel, DialogTitle } from "@headlessui/react";
 import toast from "react-hot-toast";

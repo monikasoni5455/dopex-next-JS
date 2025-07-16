@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import EmailModal from "../EmailModal/page";
+import EmailModal from "../EmailModal";
 
 const CallToAction = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
