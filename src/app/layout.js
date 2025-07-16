@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono, Roboto_Mono } from "next/font/google";
 import "./globals.css";
+import { Toaster } from "react-hot-toast";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,7 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-    <head>
+      <head>
         {/* Load the GA script asynchronously */}
         <script
           async
@@ -41,6 +42,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Toaster position="top-center" />
         {children}
       </body>
     </html>
