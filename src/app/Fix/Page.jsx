@@ -2,7 +2,7 @@ import React from "react";
 
 const Fix = () => {
   return (
-    <div className="w-full md:py-6 text-justify border-y py-10 md:border-0 ">
+    <div className="w-full md:py-6 text-justify border-y-2 py-10 md:border-0 ">
       <span
         className="uppercase text-sm font-roboto-mono bg-[#bbfa00] text-black font-bold 
       p-[3px]"

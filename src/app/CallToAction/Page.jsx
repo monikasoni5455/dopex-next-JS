@@ -7,7 +7,7 @@ const CallToAction = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <div className="text-center border-y py-8 md:mx-5 mb-10 md:flex flex-col justify-center items-center">
+    <div className="text-center border-y-2 py-8 md:mx-5 mb-10 md:flex flex-col justify-center items-center">
       <h3 className="font-collegium text-2xl py-2 md:p-2 line-spacing-1">
         Take OWNERSHIP of your Operations
       </h3>
@@ -15,12 +15,18 @@ const CallToAction = () => {
         Don’t waste more time. Shoot us an email and share how you think we can
         help. We’ll respond quickly, and we won’t waste yours.
       </p>
-      <button
+      {/* <button
         onClick={() => setIsModalOpen(true)}
         className="font-collegium px-16 py-2 text-black bg-[#bbfa00] rounded-4xl mt-3 mb-2 hover:cursor-pointer"
       >
         Email us
-      </button>
+      </button> */}
+      <a
+        href="mailto:info@dopex.co"
+        className="font-collegium px-16 py-2 text-black bg-[#bbfa00] rounded-4xl mt-3 mb-2 inline-block"
+      >
+        Email us
+      </a>
 
       <EmailModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </div>

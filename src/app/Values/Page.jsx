@@ -2,7 +2,7 @@ import React from "react";
 
 const Values = () => {
   return (
-    <div className="mx-0 text-justify border-y md:border-0 py-10 md:py-0">
+    <div className="mx-0 text-justify border-y-2 md:border-0 py-10 md:py-0">
       <span className="text-sm font-roboto-mono bg-[#bbfa00] text-black font-bold p-1">
         THE VALUES OF DOPEX
       </span>

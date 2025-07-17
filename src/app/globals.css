@@ -74,9 +74,9 @@ body {
 }
 
 .custom-border {
-  border-top: 1px solid #bbfa00;
-  border-right: 1px solid #bbfa00;
-  border-left: 1px solid #bbfa00;
+  border-top: 2px solid #bbfa00;
+  border-right: 2px solid #bbfa00;
+  border-left: 2px solid #bbfa00;
 }
 
 .box {
@@ -89,7 +89,7 @@ body {
 .box::after {
   content: "";
   position: absolute;
-  height: 1px;
+  height: 2px;
   background-color: #bbfa00;
   bottom: 0;
 }

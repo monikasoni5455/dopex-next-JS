@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Service = () => {
   return (
-    <div className="h-full text-justify flex flex-col justify-between items-center border-b mb-5 md:mb-0 md:border-0 fixed-width md:mx-10">
+    <div className="h-full text-justify flex flex-col justify-between items-center border-b-2 mb-5 md:mb-0 md:border-0 fixed-width md:mx-10">
       <div className="mt-4">
         <span className="text-sm font-roboto-mono bg-[#bbfa00] text-black font-bold p-1">
           SERVICES
@@ -30,7 +30,7 @@ const Service = () => {
           </span>{" "}
           An ERP partnership that won’t disappoint. We speak your language
           because we’ve had your job. Put an end to siloed systems with our
-          turnkey Acumatica + Procore deployments
+          turnkey Acumatica + Procore deployments.
         </p>
         <p className="text-sm font-roboto-mono my-6 ">
           <span className="font-bold">
