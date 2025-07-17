@@ -9,7 +9,7 @@ import Experience from "./Experience/page";
 import Values from "./Values/Page";
 import Feedback from "./Feedback/Page";
 import CallToAction from "./CallToAction/Page";
-import Service from "./Service/Page";
+import Service from "./Service/Page"; 
 
 export default function Home() {
   return (
