@@ -40,7 +40,7 @@ const CallToAction = () => {
     }
   };
   return (
-    <div className="text-center border-y-2 py-8 md:mx-5 mb-10 md:flex flex-col justify-center items-center">
+    <div className="text-center border-t-2 py-8 md:mx-5 mb-10 md:flex flex-col justify-center items-center">
       <h3 className="font-collegium text-2xl py-2 md:p-2 line-spacing-1">
         Take OWNERSHIP of your Operations
       </h3>
@@ -68,12 +68,17 @@ const CallToAction = () => {
       {/* button to check whether the user has permission for opening the native email/application or not*/}
       <button
         onClick={handleEmailClick}
-        className="font-collegium px-16 py-2 text-black bg-[#bbfa00] rounded-4xl mt-3 mb-2 inline-block hover:cursor-pointer"
+        className="font-collegium px-16 py-2 text-black bg-[#bbfa00] rounded-4xl mt-3 mb-10 inline-block hover:cursor-pointer"
       >
         Email us
       </button>
 
       <EmailModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+
+      <div className="w-full font-roboto-mono text-normal py-3 line-spacing-1 border-y-2">
+        1580 N Logan St, STE 660 Denver, CO 80203 | © 720-856-3665 | Dept of
+        OpEx LLC 2025
+      </div>
     </div>
   );
 };
