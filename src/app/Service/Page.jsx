@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Service = () => {
   return (
-    <div className="h-full text-justify flex flex-col justify-between items-center border-b-2 mb-5 md:mb-0 md:border-0 fixed-width md:mx-10">
+    <div className="h-full text-justify flex flex-col justify-between items-center border-b-2 mb-5 md:mb-0 md:border-0 fixed-width md:mx-10 custom-padding">
       <div className="mt-4">
         <span className="text-sm font-roboto-mono bg-[#bbfa00] text-black font-bold p-1">
           SERVICES

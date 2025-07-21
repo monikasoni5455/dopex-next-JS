@@ -209,16 +209,66 @@ body {
   .carousel-root {
     width: 350px;
   }
+
+  .custom-padding {
+    padding: 0 13px;
+  }
 }
 
 /* 850px to 991px */
-@media (min-width: 850px) and (max-width: 991px) {
+@media (min-width: 850px) and (max-width: 890px) {
   .fixed-width {
     width: 200px;
   }
 
   .carousel-root {
     width: 450px;
+  }
+
+  .custom-padding {
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: 891px) and (max-width: 930px) {
+  .fixed-width {
+    width: 200px;
+  }
+
+  .carousel-root {
+    width: 450px;
+  }
+
+  .custom-padding {
+    padding: 0 13px;
+  }
+}
+
+@media (min-width: 931px) and (max-width: 960px) {
+  .fixed-width {
+    width: 200px;
+  }
+
+  .carousel-root {
+    width: 450px;
+  }
+
+  .custom-padding {
+    padding: 0 10px;
+  }
+}
+
+@media (min-width: 961px) and (max-width: 991px) {
+  .fixed-width {
+    width: 200px;
+  }
+
+  .carousel-root {
+    width: 450px;
+  }
+
+  .custom-padding {
+    padding: 0 8px;
   }
 }
 
@@ -231,6 +281,10 @@ body {
   .carousel-root {
     width: 500px;
   }
+
+  .custom-padding {
+    padding: 0 4px;
+  }
 }
 
 /* 1100px to 1199px */
@@ -242,6 +296,10 @@ body {
   .carousel-root {
     width: 550px;
   }
+
+  .custom-padding {
+    padding: 0;
+  }
 }
 
 /* 1200px and up */
@@ -252,5 +310,9 @@ body {
 
   .carousel-root {
     width: 100%;
+  }
+
+  .custom-padding {
+    padding: 0;
   }
 }
