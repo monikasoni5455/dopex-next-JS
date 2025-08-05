@@ -26,6 +26,11 @@ export default function RootLayout({ children }) {
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-TMHKP9874R"
         ></script>
+        <script
+          type="text/javascript"
+          src="https://map.acumatica.com/track/0q9epsuy8e87/payload.js"
+          async
+        ></script>
 
         {/* Inline configuration script using dangerouslySetInnerHTML */}
         <script
